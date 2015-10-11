@@ -18,6 +18,7 @@ class StartViewController: UIViewController {
         // navigation controller has an array of viewControllers, everytime we push an object we are adding it to the array
         // gameViewController is replacing the default startViewController
         // there's no reason to go back to StartViewController
+        
         navigationController?.viewControllers = [gameVC]
         
     }
