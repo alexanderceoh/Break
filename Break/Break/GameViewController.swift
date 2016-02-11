@@ -75,6 +75,7 @@ class GameViewController: UIViewController, UIDynamicAnimatorDelegate, UICollisi
                 brick.removeFromSuperview()
                 
                 topBar.score += 100
+                
             }
             
         }
@@ -152,6 +153,7 @@ class GameViewController: UIViewController, UIDynamicAnimatorDelegate, UICollisi
     } // end touches moved
     
     // MARK: - Create Game Elements
+
     
     func createBricks() {
         

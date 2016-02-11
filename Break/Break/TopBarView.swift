@@ -48,6 +48,8 @@ class TopBarView: UIView {
             
             scoreLabel.text = "\(score)"
             
+            GameData.mainData().currentScore = score
+            
         }
         
     }

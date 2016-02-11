@@ -23,4 +23,14 @@ class StartViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var topScoreLabel: UILabel!
+    
+    override func viewDidLoad() {
+        
+        let topScore = GameData.mainData().topScore
+        
+        topScoreLabel.text = String(topScore)
+        
+    }
+    
 }
